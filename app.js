@@ -1,7 +1,7 @@
 //grab a couple of things with need
 const section = document.querySelector('section');
 const playerLivesCount = document.querySelector('span');
-let playerLives = 6;
+let playerLives = 8;
 
 //link text
 playerLivesCount.textContent = playerLives
@@ -13,7 +13,7 @@ const getData = () => [
   { imgSrc: "./images/fkatwigs.jpeg", name: "fka twigs" },
   { imgSrc: "./images/fleetwood.jpeg", name: "fleetwood" },
   { imgSrc: "./images/joy-division.jpeg", name: "joy division" },
-  { imgSrc: "./images/ledzep.jpeg", name: "lep-zeppelin" },
+  { imgSrc: "./images/ledzep.jpeg", name: "led-zeppelin" },
   { imgSrc: "./images/metallica.jpeg", name: "metallica" },
   { imgSrc: "./images/pinkfloyd.jpeg", name: "pink floyd" },
   { imgSrc: "./images/beatles.jpeg", name: "beatles" },
@@ -110,7 +110,7 @@ const restart = (text) => {
     }, 1000);
     
   });
-  playerLives = 6
+  playerLives = 8
   playerLivesCount.textContent = playerLives;
   setTimeout(() => window.alert(text), 100);
 };
